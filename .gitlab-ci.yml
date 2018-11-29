@@ -1,0 +1,15 @@
+unit_test:
+  stage: test
+  script:
+    - echo 23424
+  tags:
+    - java-dev
+
+deploy_staging:
+  stage: deploy
+  script:
+    - echo 123
+  only:
+    - master
+  tags:
+    - java-staging
