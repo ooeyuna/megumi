@@ -97,4 +97,4 @@ config # 挂载的目录
 
     - 服务健康检查交给marathon等第三方系统来做,但也有个考虑就是健康检查可能会需要触发一些报警措施,这里marathon是无法自定义的,为了这个监听marathon的event又有点画蛇添足.让网关承载这个任务可能会合适点,但网关自身性能要求很高,不适合做这个事
 
-make change
+make change2
